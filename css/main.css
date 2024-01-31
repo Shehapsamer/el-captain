@@ -541,6 +541,9 @@ p{
   display: flex;
   align-items: center;
 }
+.form .all_right span{
+  color: #cab284;
+}
 .form .all_right svg{
   color: var(--btnColor);
   font-size: 30px;
@@ -556,8 +559,8 @@ p{
 .form .zzz p{
   margin: 20px 0;
 }
-.form .sochial a{
-  color: var(--btnColor);
+.form  a{
+  color: var(--Secondary-color);
   font-size: 18px;
   margin: 5px;
 }
@@ -774,14 +777,67 @@ p{
    transition: all .5s ease-in-out;
  }
 
- .scroll_transition {
-   transform: translateY(100px);
-   display: block;
+.scroll_transition {
+  transform: translateY(100px);
+  display: block;
 
- }
+}
 
- .show_scroll {
-   transition: all .5s ease-in-out;
-   transform: translateY(0);
+.show_scroll {
+  transition: all .5s ease-in-out;
+  transform: translateY(0);
 
- }
+}
+.about{
+padding: 70px 0;
+}
+.about .box{
+  padding: 25px;
+}
+.about .box img{
+  border-radius: 20px  ;
+}
+.about .box h3{
+  margin-bottom: 40px ;
+  margin: 20px;
+}
+.about .box p{
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.about .box h3{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.about2 .box p{
+  line-height: 1.8;
+}
+.about2 .box ul {
+  padding-right: 40px;
+}
+.about2 .box ul li{
+  list-style: decimal;
+  margin: 10px 0 ;
+}
+
+.WahtsApp {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #11BA17;
+  display: flex;
+  align-items: center;
+  z-index: 222;
+  justify-content: center;
+}
+.phone{
+  bottom: 90px;
+  background-color: #213693;
+}
+.WahtsApp a svg {
+  color: #fff;
+  font-size: 25px;
+}
